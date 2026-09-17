@@ -24,3 +24,47 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
+.mz-competition-panel {
+    position: fixed;
+    inset: 0;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.mz-competition-panel-content {
+    width: 360px;
+    padding: 24px;
+    background: #2f3236;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.mz-competition-panel-content h2 {
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.mz-competition-panel-content button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 14px;
+    border: 1px solid #50545a;
+    border-radius: 6px;
+    background: #3a3e43;
+    color: #eee;
+    cursor: pointer;
+}
+
+.mz-competition-panel-content button:hover {
+    background: #464b51;
+}
+
+.mz-competition-close {
+    margin-top: 18px !important;
+}
