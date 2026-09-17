@@ -24,47 +24,90 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
-.mz-competition-panel {
+#interaction-modal {
     position: fixed;
-    inset: 0;
-    z-index: 100000;
+    min-width: 450px;
+    background: #2f3236;
+    color: #f1eee8;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    font-family: Cambria, Georgia, serif;
+}
+
+#interaction-modal .interaction-modal-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.55);
+    justify-content: space-between;
+    padding: 14px 16px;
+    background: #292c30;
+    color: #f1eee8;
+    border-bottom: 1px solid #45494e;
 }
 
-.mz-competition-panel-content {
-    width: 360px;
-    padding: 24px;
-    background: #2f3236;
-    border-radius: 10px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
-    text-align: center;
-    font-family: Arial, sans-serif;
+#interaction-modal .interaction-modal-header > span {
+    font-family: Cambria, Georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1eee8;
 }
 
-.mz-competition-panel-content h2 {
-    margin: 0 0 20px;
-    color: #fff;
-}
-
-.mz-competition-panel-content button {
-    display: block;
-    width: 100%;
-    margin: 8px 0;
-    padding: 10px 14px;
-    border: 1px solid #50545a;
-    border-radius: 6px;
-    background: #3a3e43;
-    color: #eee;
+#interaction-modal .settings-icon,
+#interaction-modal .ylotp-close-icon {
+    font-size: 22px !important;
+    color: #e8e4dc !important;
     cursor: pointer;
+    opacity: 0.8;
 }
 
-.mz-competition-panel-content button:hover {
-    background: #464b51;
+#interaction-modal .settings-icon:hover,
+#interaction-modal .ylotp-close-icon:hover {
+    opacity: 1;
 }
 
-.mz-competition-close {
-    margin-top: 18px !important;
+#interaction-modal .tab-headers {
+    display: flex;
+    padding: 10px 12px 0;
+    gap: 4px;
+    background: #2f3236;
+}
+
+#interaction-modal .tab-header {
+    padding: 9px 14px !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+    background: transparent !important;
+    color: #d8d4cc !important;
+    cursor: pointer;
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px !important;
+}
+
+#interaction-modal .tab-header.active {
+    color: #f5f1e9 !important;
+    border-bottom-color: #c8c1b5 !important;
+}
+
+#interaction-modal .tab-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px;
+    background: #2f3236;
+}
+
+#interaction-modal .tab-content button {
+    padding: 9px 14px !important;
+    border: 1px solid #50545a !important;
+    border-radius: 6px !important;
+    background: #3a3e43 !important;
+    color: #eeeae2 !important;
+    cursor: pointer;
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px !important;
+}
+
+#interaction-modal .tab-content button:hover {
+    background: #464b51 !important;
+    border-color: #666b71 !important;
 }
