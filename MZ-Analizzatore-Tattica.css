@@ -7,8 +7,6 @@ position: fixed;
 top: 20px;
 left: 20px;
 z-index: 99999;
-
-```
 padding: 10px 18px; 
 background: linear-gradient(135deg, #1565c0, #1976d2); 
 color: #fff; 
@@ -22,8 +20,6 @@ font-weight: bold;
 
 cursor: pointer; 
 transition: all 0.2s ease; 
-```
-
 }
 
 .mz-tactics-button:hover {
