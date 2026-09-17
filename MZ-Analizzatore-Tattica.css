@@ -5,7 +5,7 @@
     z-index: 99999;
 
     padding: 10px 18px;
-    background: linear-gradient(135deg, #2e7d32, #43a047);
+    background: linear-gradient(135deg, #1565c0, #1976d2);
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -20,7 +20,7 @@
 }
 
 .mz-tactics-button:hover {
-    background: linear-gradient(135deg, #388e3c, #4caf50);
+    background: linear-gradient(135deg, #1976d2, #2196f3);
     transform: translateY(-2px);
     box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
