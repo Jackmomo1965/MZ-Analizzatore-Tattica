@@ -1,113 +1,141 @@
+/* ═══════════════════════════════════════════════
+PULSANTE PRINCIPALE
+═══════════════════════════════════════════════ */
+
 .mz-tactics-button {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 99999;
+position: fixed;
+top: 20px;
+left: 20px;
+z-index: 99999;
 
-    padding: 10px 18px;
-    background: linear-gradient(135deg, #1565c0, #1976d2);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+```
+padding: 10px 18px; 
+background: linear-gradient(135deg, #1565c0, #1976d2); 
+color: #fff; 
+border: none; 
+border-radius: 8px; 
+box-shadow: 0 3px 8px rgba(0,0,0,0.25); 
 
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+font-family: Arial, sans-serif; 
+font-size: 14px; 
+font-weight: bold; 
 
-    cursor: pointer;
-    transition: all 0.2s ease;
+cursor: pointer; 
+transition: all 0.2s ease; 
+```
+
 }
 
 .mz-tactics-button:hover {
-    background: linear-gradient(135deg, #1976d2, #2196f3);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
-}
-#interaction-modal {
-    position: fixed;
-    min-width: 450px;
-    background: #2f3236;
-    color: #f1eee8;
-    border-radius: 12px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
-    overflow: hidden;
-    font-family: Cambria, Georgia, serif;
+background: linear-gradient(135deg, #1976d2, #2196f3);
+transform: translateY(-2px);
+box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
 
+/* ═══════════════════════════════════════════════
+PANNELLO SELEZIONE COMPETIZIONE
+═══════════════════════════════════════════════ */
+
+#interaction-modal {
+position: fixed;
+min-width: 450px;
+background: #2f3236;
+color: #f1eee8;
+border-radius: 12px;
+box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+overflow: hidden;
+font-family: Cambria, Georgia, serif;
+}
+
+/* ───────────────────────────────────────────────
+INTESTAZIONE DEL PANNELLO
+─────────────────────────────────────────────── */
+
 #interaction-modal .interaction-modal-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 16px;
-    background: #292c30;
-    color: #f1eee8;
-    border-bottom: 1px solid #45494e;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 14px 16px;
+background: #292c30;
+color: #f1eee8;
+border-bottom: 1px solid #45494e;
 }
 
 #interaction-modal .interaction-modal-header > span {
-    font-family: Cambria, Georgia, serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #f1eee8;
+font-family: Cambria, Georgia, serif;
+font-size: 18px;
+font-weight: 600;
+color: #f1eee8;
 }
+
+/* ───────────────────────────────────────────────
+ICONE IMPOSTAZIONI E CHIUSURA
+─────────────────────────────────────────────── */
 
 #interaction-modal .settings-icon,
 #interaction-modal .ylotp-close-icon {
-    font-size: 22px !important;
-    color: #e8e4dc !important;
-    cursor: pointer;
-    opacity: 0.8;
+font-size: 22px !important;
+color: #e8e4dc !important;
+cursor: pointer;
+opacity: 0.8;
 }
 
 #interaction-modal .settings-icon:hover,
 #interaction-modal .ylotp-close-icon:hover {
-    opacity: 1;
+opacity: 1;
 }
 
+/* ───────────────────────────────────────────────
+SCHEDE DELLE COMPETIZIONI
+─────────────────────────────────────────────── */
+
 #interaction-modal .tab-headers {
-    display: flex;
-    padding: 10px 12px 0;
-    gap: 4px;
-    background: #2f3236;
+display: flex;
+padding: 10px 12px 0;
+gap: 4px;
+background: #2f3236;
 }
 
 #interaction-modal .tab-header {
-    padding: 9px 14px !important;
-    border: none !important;
-    border-bottom: 2px solid transparent !important;
-    background: transparent !important;
-    color: #d8d4cc !important;
-    cursor: pointer;
-    font-family: Cambria, Georgia, serif;
-    font-size: 15px !important;
+padding: 9px 14px !important;
+border: none !important;
+border-bottom: 2px solid transparent !important;
+background: transparent !important;
+color: #d8d4cc !important;
+cursor: pointer;
+font-family: Cambria, Georgia, serif;
+font-size: 15px !important;
 }
 
 #interaction-modal .tab-header.active {
-    color: #f5f1e9 !important;
-    border-bottom-color: #c8c1b5 !important;
+color: #f5f1e9 !important;
+border-bottom-color: #c8c1b5 !important;
 }
 
+/* ───────────────────────────────────────────────
+PULSANTI DELLE COMPETIZIONI
+─────────────────────────────────────────────── */
+
 #interaction-modal .tab-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 16px;
-    background: #2f3236;
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+padding: 16px;
+background: #2f3236;
 }
 
 #interaction-modal .tab-content button {
-    padding: 9px 14px !important;
-    border: 1px solid #50545a !important;
-    border-radius: 6px !important;
-    background: #3a3e43 !important;
-    color: #eeeae2 !important;
-    cursor: pointer;
-    font-family: Cambria, Georgia, serif;
-    font-size: 15px !important;
+padding: 9px 14px !important;
+border: 1px solid #50545a !important;
+border-radius: 6px !important;
+background: #3a3e43 !important;
+color: #eeeae2 !important;
+cursor: pointer;
+font-family: Cambria, Georgia, serif;
+font-size: 15px !important;
 }
 
 #interaction-modal .tab-content button:hover {
-    background: #464b51 !important;
-    border-color: #666b71 !important;
+background: #464b51 !important;
+border-color: #666b71 !important;
 }
