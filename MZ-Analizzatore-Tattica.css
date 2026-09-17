@@ -135,3 +135,43 @@ font-size: 15px !important;
 background: #464b51 !important;
 border-color: #666b71 !important;
 }
+
+/* ─────────────────────────────────────────────
+   PANNELLO IMPOSTAZIONI
+   ───────────────────────────────────────────── */
+#interaction-modal .settings-panel {
+    padding: 14px 16px;
+    background: #292c30;
+    color: #e8e4dc;
+    border-top: 1px solid #45494e;
+    font-family: Cambria, Georgia, serif;
+}
+
+#interaction-modal .settings-panel label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #eeeae2;
+}
+
+#interaction-modal .settings-panel input {
+    width: 70px;
+    padding: 7px 9px;
+    border: 1px solid #50545a;
+    border-radius: 5px;
+    background: #3a3e43;
+    color: #eeeae2;
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#interaction-modal .settings-panel small {
+    display: block;
+    margin-top: 10px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #aaa69e;
+}
