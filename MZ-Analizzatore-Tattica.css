@@ -252,6 +252,58 @@ border-color: #666b71 !important;
     text-align: center;
 }
 
+#tactics-container .tactic-item canvas {
+    border: 3px solid #f1eee8;
+}
+
+#tactics-container .tactic-item[data-federation-color] canvas {
+    border-width: 4px;
+}
+
+#tactics-container .tactic-item[data-federation-color="0"] canvas {
+    border-color: #C62828;
+}
+
+#tactics-container .tactic-item[data-federation-color="1"] canvas {
+    border-color: #1565C0;
+}
+
+#tactics-container .tactic-item[data-federation-color="2"] canvas {
+    border-color: #2E7D32;
+}
+
+#tactics-container .tactic-item[data-federation-color="3"] canvas {
+    border-color: #C65D1E;
+}
+
+#tactics-container .tactic-item[data-federation-color="4"] canvas {
+    border-color: #6A1B9A;
+}
+
+#tactics-container .tactic-item[data-federation-color="5"] canvas {
+    border-color: #C9A227;
+}
+
+#tactics-container .tactic-item[data-federation-color="6"] canvas {
+    border-color: #C2185B;
+}
+
+#tactics-container .tactic-item[data-federation-color="7"] canvas {
+    border-color: #00838F;
+}
+
+#tactics-container .tactic-item[data-federation-color="8"] canvas {
+    border-color: #8D6E63;
+}
+
+#tactics-container .tactic-item[data-federation-color="9"] canvas {
+    border-color: #AD1457;
+}
+
+#tactics-container .tactic-item[data-federation-color="10"] canvas {
+    border-color: #558B2F;
+}
+
 .federation-progress {
     position: fixed;
     top: 20px;
