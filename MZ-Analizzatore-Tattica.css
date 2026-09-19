@@ -327,7 +327,3 @@ border-color: #666b71 !important;
 .settings-panel {
     display: none;
 }
-#tactics-container .xml-button {
-    display: block;
-    margin: 8px auto 0;
-}
