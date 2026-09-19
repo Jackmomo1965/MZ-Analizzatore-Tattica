@@ -175,3 +175,54 @@ border-color: #666b71 !important;
     line-height: 1.4;
     color: #aaa69e;
 }
+/* =========================================================
+   PANNELLO TATTICHE
+   Stile replicato dal 7BIS
+   ========================================================= */
+
+#tactics-container {
+    position: fixed;
+    width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #292c30;
+    color: #f1eee8;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Cambria, Georgia, serif;
+    z-index: 10001;
+}
+
+#tactics-container .tactics-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tactics-container .tactics-header .match-info-text {
+    font-family: Cambria, Georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f1eee8;
+}
+
+#tactics-container .tactic-link {
+    color: #f1eee8;
+}
+
+#tactics-container .tactic-link p {
+    color: #f1eee8;
+}
+
+#tactics-container .ylotp-close-icon {
+    font-size: 22px !important;
+    color: #e8e4dc !important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#tactics-container .ylotp-close-icon:hover {
+    opacity: 1;
+}
