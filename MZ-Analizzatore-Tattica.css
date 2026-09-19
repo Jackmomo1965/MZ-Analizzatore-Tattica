@@ -246,8 +246,9 @@ border-color: #666b71 !important;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     margin-top: 20px;
+    padding: 0 4px;
+    box-sizing: border-box;
 }
-
 #tactics-container .tactic-item {
     text-align: center;
 }
