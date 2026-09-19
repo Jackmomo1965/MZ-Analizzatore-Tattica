@@ -183,6 +183,9 @@ border-color: #666b71 !important;
 #tactics-container {
     position: fixed;
     width: 800px;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
     max-height: 90vh;
     overflow-y: auto;
     background: #292c30;
