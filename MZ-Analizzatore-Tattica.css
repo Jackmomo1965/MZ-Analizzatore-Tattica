@@ -34,6 +34,9 @@ PANNELLO SELEZIONE COMPETIZIONE
 
 #interaction-modal {
 position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
 min-width: 450px;
 background: #2f3236;
 color: #f1eee8;
@@ -64,12 +67,19 @@ font-weight: 600;
 color: #f1eee8;
 }
 
+#interaction-modal .interaction-modal-controls {
+    display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
 /* ───────────────────────────────────────────────
 ICONE IMPOSTAZIONI E CHIUSURA
 ─────────────────────────────────────────────── */
 
 #interaction-modal .settings-icon,
 #interaction-modal .ylotp-close-icon {
+margin-left: auto;
 font-size: 22px !important;
 color: #e8e4dc !important;
 cursor: pointer;
@@ -240,4 +250,26 @@ border-color: #666b71 !important;
 
 #tactics-container .tactic-item {
     text-align: center;
+}
+
+.federation-progress {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    background: #292c30;
+    color: #f1eee8;
+    padding: 12px 16px;
+    border: 1px solid #45494e;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+   accent-color: #f1eee8;
+}
+
+.settings-panel {
+    display: none;
 }
