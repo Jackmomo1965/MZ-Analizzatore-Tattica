@@ -243,12 +243,13 @@ border-color: #666b71 !important;
 
 #tactics-container .tactics-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(3, 240px);
+    column-gap: 20px;
+    row-gap: 30px;
     margin-top: 20px;
-    padding: 0 4px;
-    box-sizing: border-box;
+    justify-content: center;
 }
+
 #tactics-container .tactic-item {
     text-align: center;
 }
