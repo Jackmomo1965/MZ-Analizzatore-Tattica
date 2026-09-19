@@ -328,5 +328,6 @@ border-color: #666b71 !important;
     display: none;
 }
 #tactics-container .xml-button {
-    margin-top: 8px;
+    display: block;
+    margin: 8px auto 0;
 }
