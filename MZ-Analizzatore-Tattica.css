@@ -351,22 +351,6 @@ border-color: #666b71 !important;
     color: #f1eee8;
 }
 
-#mz-report-progress-container {
-    width: 100%;
-    height: 20px;
-    background: #3a3e43;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 0 0 10px;
-}
-
-#mz-report-progress {
-    width: 0;
-    height: 100%;
-    background: #f1eee8;
-    transition: width 0.3s ease;
-}
-
 #mz-report-progress-text {
     font-size: 14px;
     color: #d8d4cc;
