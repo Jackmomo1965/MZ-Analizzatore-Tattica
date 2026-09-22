@@ -389,3 +389,25 @@ border-color: #666b71 !important;
     background: #464b51;
     border-color: #666b71;
 }
+#mz-report-downloads {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#mz-report-downloads button {
+    padding: 9px 18px;
+    border: 1px solid #50545a;
+    border-radius: 6px;
+    background: #3a3e43;
+    color: #eeeae2;
+    cursor: pointer;
+    font-family: Cambria, Georgia, serif;
+    font-size: 15px;
+}
+
+#mz-report-downloads button:hover {
+    background: #464b51;
+    border-color: #666b71;
+}
