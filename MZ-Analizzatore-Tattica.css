@@ -419,3 +419,18 @@ border-color: #666b71 !important;
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
 }
+#report-spinner {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border: 4px solid #ddd;
+    border-top: 4px solid #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
