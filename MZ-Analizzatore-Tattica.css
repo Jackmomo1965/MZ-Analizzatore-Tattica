@@ -378,7 +378,6 @@ border-color: #666b71 !important;
 }
 
 .report-window #report-buttons button {
-    flex: 1;
     padding: 11px 14px;
     border: 1px solid rgba(255,255,255,.08);
     border-radius: 10px;
