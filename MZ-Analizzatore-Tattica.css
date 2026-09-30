@@ -368,6 +368,7 @@ border-color: #666b71 !important;
 }
 .report-window #report-buttons {
     display: flex;
+    width: fit-content;
     justify-content: center;
     gap: 6px;
     margin-top: 30px;
