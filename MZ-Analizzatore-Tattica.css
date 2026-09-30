@@ -353,38 +353,3 @@ border-color: #666b71 !important;
         "Segoe UI",
         sans-serif;
 }
-.report {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-.header {
-    position: relative;
-    overflow: hidden;
-    padding: 32px;
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 24px;
-    background: rgba(20,26,35,.92);
-    box-shadow:
-        0 20px 60px rgba(0,0,0,.35);
-}
-.competition {
-    position: relative;
-    text-align: center;
-    color: #9ca3af;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 28px;
-}
-.scoreboard {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: start;
-    gap: 30px;
-}
-.team {
-    position: relative;
-    text-align: center;
-}
