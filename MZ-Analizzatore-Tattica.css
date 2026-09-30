@@ -361,13 +361,7 @@ border-color: #666b71 !important;
 }
 .report-window #bin-status,
 .report-window #xml-status {
-    display: table;
-    width: auto;
-    margin: 10px auto;
-    padding: 12px 16px;
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 10px;
-    background: rgba(20,26,35,.75);
+    margin: 10px 0;
     color: #d1d5db;
     font-size: 15px;
     text-align: center;
