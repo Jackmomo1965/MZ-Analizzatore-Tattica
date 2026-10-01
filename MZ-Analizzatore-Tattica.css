@@ -387,6 +387,7 @@ border-color: #666b71 !important;
     font-size: 24px;
 }
 .download-BIN-XML-panel .ylotp-close-icon {
+    margin-left: auto;
     font-size: 22px !important;
     color: #e8e4dc !important;
     cursor: pointer;
