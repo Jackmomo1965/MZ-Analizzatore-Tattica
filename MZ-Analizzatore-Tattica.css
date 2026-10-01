@@ -347,12 +347,6 @@ border-color: #666b71 !important;
     z-index: 10002;
 }
 
-.download-BIN-XML-panel h1 {
-    margin: 0 0 25px 0;
-    text-align: center;
-    font-size: 24px;
-}
-
 .download-BIN-XML-panel #bin-status,
 .download-BIN-XML-panel #xml-status {
     margin: 10px 0;
@@ -383,4 +377,14 @@ border-color: #666b71 !important;
 
 .download-BIN-XML-panel .ylotp-close-icon:hover {
     opacity: 1;
+}
+.download-BIN-XML-panel .download-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.download-BIN-XML-panel .download-panel-header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
 }
