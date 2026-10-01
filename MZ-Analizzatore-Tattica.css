@@ -386,14 +386,14 @@ border-color: #666b71 !important;
     text-align: center;
     font-size: 24px;
 }
-.download-BIN-XML-panel .ylotp-close-icon {
-    margin-left: auto;
+.download-BIN-XML-panel .download-panel-header .ylotp-close-icon {
+    margin-left: auto !important;
     font-size: 22px !important;
     color: #e8e4dc !important;
-    cursor: pointer;
-    opacity: 0.8;
+    cursor: pointer !important;
+    opacity: 0.8 !important;
 }
 
-.download-BIN-XML-panel .ylotp-close-icon:hover {
-    opacity: 1;
+.download-BIN-XML-panel .download-panel-header .ylotp-close-icon:hover {
+    opacity: 1 !important;
 }
