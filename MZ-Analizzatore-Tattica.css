@@ -357,7 +357,7 @@ border-color: #666b71 !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    column-gap: 20px !important;
     margin-top: 25px;
 }
 
