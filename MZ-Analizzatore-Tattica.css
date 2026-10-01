@@ -386,3 +386,13 @@ border-color: #666b71 !important;
     text-align: center;
     font-size: 24px;
 }
+.download-BIN-XML-panel .ylotp-close-icon {
+    font-size: 22px !important;
+    color: #e8e4dc !important;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.download-BIN-XML-panel .ylotp-close-icon:hover {
+    opacity: 1;
+}
