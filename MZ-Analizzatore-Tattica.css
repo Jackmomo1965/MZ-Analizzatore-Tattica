@@ -79,7 +79,7 @@ ICONE IMPOSTAZIONI E CHIUSURA
 
 #interaction-modal .settings-icon,
 #interaction-modal .ylotp-close-icon {
-margin-left: auto;
+margin-left: 0;
 font-size: 22px !important;
 color: #e8e4dc !important;
 cursor: pointer;
