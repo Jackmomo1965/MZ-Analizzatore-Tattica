@@ -145,21 +145,7 @@ font-size: 15px !important;
 background: #464b51 !important;
 border-color: #666b71 !important;
 }
-.report-window .xml-button {
-    padding: 9px 14px !important;
-    border: 1px solid #50545a !important;
-    border-radius: 6px !important;
-    background: #3a3e43 !important;
-    color: #eeeae2 !important;
-    cursor: pointer;
-    font-family: Cambria, Georgia, serif;
-    font-size: 15px !important;
-}
 
-.report-window .xml-button:hover {
-    background: #464b51 !important;
-    border-color: #666b71 !important;
-}
 /* ─────────────────────────────────────────────
    PANNELLO IMPOSTAZIONI
    ───────────────────────────────────────────── */
