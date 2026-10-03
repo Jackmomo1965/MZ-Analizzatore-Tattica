@@ -417,6 +417,6 @@ border-color: #666b71 !important;
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
 }
-#tactics-container .tactic-item .xml-button {
+#tactics-container button.xml-button {
     color: red !important;
 }
