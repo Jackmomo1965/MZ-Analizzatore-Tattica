@@ -379,7 +379,6 @@ border-color: #666b71 !important;
     border-radius: 14px;
     background: rgba(20,26,35,.88);
 }
-
 .report-window #report-buttons button {
     padding: 9px 14px !important;
     border: 1px solid #50545a !important;
@@ -389,6 +388,10 @@ border-color: #666b71 !important;
     cursor: pointer;
     font-family: Cambria, Georgia, serif;
     font-size: 15px !important;
+    font-weight: normal !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
 }
 .report-window #report-buttons button:hover {
     transform: translateY(-2px);
