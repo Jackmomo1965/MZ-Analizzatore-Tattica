@@ -187,7 +187,6 @@ border-color: #666b71 !important;
 }
 /* =========================================================
    PANNELLO TATTICHE
-   Stile replicato dal 7BIS
    ========================================================= */
 
 #tactics-container {
@@ -253,7 +252,9 @@ border-color: #666b71 !important;
 #tactics-container .tactic-item {
     text-align: center;
 }
-
+#tactics-container button.xml-button {
+    color: red !important;
+}
 #tactics-container .tactic-item canvas {
     border: 3px solid #f1eee8;
 }
@@ -416,7 +417,4 @@ border-color: #666b71 !important;
     box-shadow:
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
-}
-#tactics-container button.xml-button {
-    color: red !important;
 }
