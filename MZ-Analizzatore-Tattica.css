@@ -438,15 +438,27 @@ border-color: #666b71 !important;
 }
 
 .report .header {
+    position: relative;
+    overflow: hidden;
+    padding: 32px;
     min-height: 400px;
     border: 1px solid rgba(255,255,255,.08);
     border-radius: 24px;
-background:
-    linear-gradient(
-        90deg,
-        rgba(239,83,80,.094),
-        rgba(20,26,35,.92) 45%,
-        rgba(66,165,245,.094)
-    );
-    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+    background: rgba(20,26,35,.92);
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.35);
+}
+
+.report .header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            #ef535018,
+            transparent 45%,
+            #42a5f518
+        );
+    pointer-events: none;
 }
