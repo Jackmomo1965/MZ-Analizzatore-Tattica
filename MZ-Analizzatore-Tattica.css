@@ -432,3 +432,21 @@ border-color: #666b71 !important;
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
 }
+.report {
+    max-width: 1100px;
+    margin: 32px auto;
+}
+
+.report .header {
+    min-height: 400px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 24px;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(180,60,60,.18),
+            rgba(20,26,35,.92) 45%,
+            rgba(60,90,180,.18)
+        );
+    box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
