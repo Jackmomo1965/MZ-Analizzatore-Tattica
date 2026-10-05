@@ -185,6 +185,7 @@ border-color: #666b71 !important;
     line-height: 1.4;
     color: #aaa69e;
 }
+
 /* =========================================================
    PANNELLO TATTICHE
    ========================================================= */
@@ -207,6 +208,8 @@ border-color: #666b71 !important;
     z-index: 10001;
 }
 
+/* Intestazione del pannello tattiche */
+
 #tactics-container .tactics-header {
     display: flex;
     align-items: center;
@@ -220,6 +223,8 @@ border-color: #666b71 !important;
     color: #f1eee8;
 }
 
+/* Collegamenti relativi alle tattiche */
+
 #tactics-container .tactic-link {
     color: #f1eee8;
 }
@@ -227,6 +232,8 @@ border-color: #666b71 !important;
 #tactics-container .tactic-link p {
     color: #f1eee8;
 }
+
+/* Icona di chiusura del pannello tattiche */
 
 #tactics-container .ylotp-close-icon {
     font-size: 22px !important;
@@ -238,6 +245,7 @@ border-color: #666b71 !important;
 #tactics-container .ylotp-close-icon:hover {
     opacity: 1;
 }
+
 /* Griglia miniature */
 
 #tactics-container .tactics-list {
@@ -249,9 +257,13 @@ border-color: #666b71 !important;
     justify-content: center;
 }
 
+/* Singolo elemento tattico */
+
 #tactics-container .tactic-item {
     text-align: center;
 }
+
+/* Pulsante XML */
 
 #tactics-container button.xml-button {
     padding: 9px 14px !important;
@@ -269,9 +281,13 @@ border-color: #666b71 !important;
     border-color: #666b71 !important;
 }
 
+/* Miniature delle tattiche */
+
 #tactics-container .tactic-item canvas {
     border: 3px solid #f1eee8;
 }
+
+/* Colori dei bordi delle miniature in base alla federazione */
 
 #tactics-container .tactic-item[data-federation-color] canvas {
     border-width: 4px;
@@ -321,6 +337,8 @@ border-color: #666b71 !important;
     border-color: #558B2F;
 }
 
+/* Indicatore di avanzamento del caricamento federazioni */
+
 .federation-progress {
     position: fixed;
     top: 20px;
@@ -339,12 +357,17 @@ border-color: #666b71 !important;
    accent-color: #f1eee8;
 }
 
+/* Nasconde il pannello impostazioni */
+
 .settings-panel {
     display: none;
 }
+
 /* =========================================================
    REPORT
    ========================================================= */
+
+/* Sfondo e impostazioni generali della finestra Report */
 
 .report-window {
     margin: 0;
@@ -368,12 +391,18 @@ border-color: #666b71 !important;
         "Segoe UI",
         sans-serif;
 }
+
+/* Titolo della finestra Report */
+
 .report-window h1 {
     margin: 0 0 30px 0;
     font-size: 28px;
     font-weight: 600;
     text-align: center;
 }
+
+/* Stati di caricamento BIN e XML */
+
 .report-window #bin-status,
 .report-window #xml-status {
     margin: 10px 0;
@@ -381,6 +410,9 @@ border-color: #666b71 !important;
     font-size: 15px;
     text-align: center;
 }
+
+/* Contenitore dei pulsanti del Report */
+
 .report-window #report-buttons {
     display: flex;
     margin-left: auto;
@@ -394,6 +426,9 @@ border-color: #666b71 !important;
     border-radius: 14px;
     background: rgba(20,26,35,.88);
 }
+
+/* Pulsanti del Report */
+
 .report-window #report-buttons button {
     padding: 11px 14px;
     border: 1px solid rgba(255,255,255,.08);
@@ -418,6 +453,9 @@ border-color: #666b71 !important;
         background .2s ease,
         color .2s ease;
 }
+
+/* Effetto hover dei pulsanti del Report */
+
 .report-window #report-buttons button:hover {
     transform: translateY(-2px);
     box-shadow:
@@ -426,16 +464,23 @@ border-color: #666b71 !important;
     color: #ffffff;
 }
 
+/* Effetto pressione dei pulsanti del Report */
+
 .report-window #report-buttons button:active {
     transform: translateY(2px);
     box-shadow:
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
 }
+
+/* Contenitore principale del Report */
+
 .report {
     max-width: 1100px;
     margin: 32px auto;
 }
+
+/* Intestazione principale del Report */
 
 .report .header {
     position: relative;
@@ -447,6 +492,8 @@ border-color: #666b71 !important;
     box-shadow:
         0 20px 60px rgba(0,0,0,.35);
 }
+
+/* Effetto luminoso dell'intestazione */
 
 .report .header::before {
     content: "";
@@ -461,6 +508,9 @@ border-color: #666b71 !important;
         );
     pointer-events: none;
 }
+
+/* Navigazione del Report */
+
 .report-nav {
     display: flex;
     gap: 6px;
@@ -471,6 +521,8 @@ border-color: #666b71 !important;
     border-radius: 14px;
     background: rgba(20,26,35,.88);
 }
+
+/* Pulsanti della navigazione del Report */
 
 .report-nav-button {
     flex: 1;
@@ -498,6 +550,8 @@ border-color: #666b71 !important;
         color .2s ease;
 }
 
+/* Effetto hover della navigazione */
+
 .report-nav-button:hover {
     transform: translateY(-2px);
     box-shadow:
@@ -506,12 +560,17 @@ border-color: #666b71 !important;
     color: #ffffff;
 }
 
+/* Effetto pressione della navigazione */
+
 .report-nav-button:active {
     transform: translateY(2px);
     box-shadow:
         0 2px 0 rgba(0,0,0,.35),
         0 4px 8px rgba(0,0,0,.20);
 }
+
+/* Data e ora della partita */
+
 .competition {
     position: relative;
     text-align: center;
@@ -522,6 +581,9 @@ border-color: #666b71 !important;
     letter-spacing: 2px;
     margin-bottom: 24px;
 }
+
+/* Tabellone della partita */
+
 .scoreboard {
     position: relative;
     display: grid;
@@ -529,12 +591,18 @@ border-color: #666b71 !important;
     align-items: start;
     gap: 30px;
 }
+
+/* Singola squadra */
+
 .team {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
+/* Indicatore colore della squadra */
+
 .team-color {
     width: 16px;
     height: 16px;
@@ -542,14 +610,23 @@ border-color: #666b71 !important;
     border-radius: 50%;
     box-shadow: 0 0 18px currentColor;
 }
+
+/* Colore squadra di casa */
+
 .home-color {
     background: #ef5350;
     color: #ef5350;
 }
+
+/* Colore squadra ospite */
+
 .away-color {
     background: #42a5f5;
     color: #42a5f5;
 }
+
+/* Nome della squadra */
+
 .team-name {
 
     font-size: 20px;
@@ -557,14 +634,22 @@ border-color: #666b71 !important;
     line-height: 1.2;
 }
 
+/* Codice della squadra */
+
 .team-code {
     margin-top: 4px;
     color: #8b95a5;
     font-size: 12px;
 }
+
+/* Punteggio della partita */
+
 .score {
     text-align: center;
 }
+
+/* Risultato finale */
+
 .score-value {
     font-size: 54px;
     line-height: 1;
@@ -572,6 +657,9 @@ border-color: #666b71 !important;
     letter-spacing: -2px;
     white-space: nowrap;
 }
+
+/* Risultato del primo tempo */
+
 .final {
     margin-top: 8px;
     color: #22c55e;
@@ -581,7 +669,7 @@ border-color: #666b71 !important;
     letter-spacing: 1.5px;
 }
 
-
+/* Tattiche iniziali delle squadre */
 
 .initial-tactics {
 
@@ -595,6 +683,8 @@ border-color: #666b71 !important;
 
     gap: 6px;
 }
+
+/* Singola riga della tattica */
 
 .initial-tactic-row {
 
@@ -613,6 +703,8 @@ border-color: #666b71 !important;
     line-height: 1.35;
 }
 
+/* Etichetta della tattica */
+
 .initial-tactic-label {
 
     color: #687383;
@@ -627,6 +719,8 @@ border-color: #666b71 !important;
 
     letter-spacing: .6px;
 }
+
+/* Valore della tattica */
 
 .initial-tactic-value {
 
