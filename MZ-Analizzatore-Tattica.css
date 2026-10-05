@@ -580,3 +580,61 @@ border-color: #666b71 !important;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+
+
+
+.initial-tactics {
+
+    margin-top: 18px;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.initial-tactic-row {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #9ca3af;
+
+    font-size: 11px;
+
+    line-height: 1.35;
+}
+
+.initial-tactic-label {
+
+    color: #687383;
+
+    min-width: 72px;
+
+    text-align: right;
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: .6px;
+}
+
+.initial-tactic-value {
+
+    color: #d8dde5;
+
+    font-weight: 700;
+
+    min-width: 75px;
+
+    text-align: left;
+}
