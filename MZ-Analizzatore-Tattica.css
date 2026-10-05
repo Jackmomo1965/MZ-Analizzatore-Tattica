@@ -520,50 +520,32 @@ border-color: #666b71 !important;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-bottom: 24px;
 }
 .scoreboard {
-
     position: relative;
-
     display: grid;
-
-    grid-template-columns:
-        1fr auto 1fr;
-
+    grid-template-columns: 1fr auto 1fr;
     align-items: start;
-
     gap: 30px;
 }
-
 .team {
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
 }
-
 .team-color {
-
     width: 16px;
     height: 16px;
-
     margin-bottom: 10px;
-
     border-radius: 50%;
-
-    box-shadow:
-        0 0 18px currentColor;
+    box-shadow: 0 0 18px currentColor;
 }
-
 .home-color {
     background: #ef5350;
     color: #ef5350;
 }
-
 .away-color {
     background: #42a5f5;
     color: #42a5f5;
@@ -572,45 +554,29 @@ border-color: #666b71 !important;
 
     font-size: 20px;
     font-weight: 750;
-
     line-height: 1.2;
 }
 
 .team-code {
-
     margin-top: 4px;
-
     color: #8b95a5;
-
     font-size: 12px;
 }
-
 .score {
-
     text-align: center;
 }
-
 .score-value {
-
     font-size: 54px;
     line-height: 1;
-
     font-weight: 850;
-
     letter-spacing: -2px;
-
     white-space: nowrap;
 }
-
 .final {
-
     margin-top: 8px;
-
     color: #22c55e;
-
     font-size: 11px;
     font-weight: 750;
-
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
