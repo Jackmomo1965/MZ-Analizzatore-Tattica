@@ -559,16 +559,15 @@ border-color: #666b71 !important;
         0 0 18px currentColor;
 }
 
-.team:first-child .team-color {
+.home-color {
     background: #ef5350;
     color: #ef5350;
 }
 
-.team:last-child .team-color {
+.away-color {
     background: #42a5f5;
     color: #42a5f5;
 }
-
 .team-name {
 
     font-size: 20px;
