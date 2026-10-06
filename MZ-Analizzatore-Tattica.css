@@ -733,14 +733,14 @@ border-color: #666b71 !important;
     text-align: left;
 }
 .initial-formation-home {
-    width: 240px;
-    height: 180px;
+    width: 360px;
+    height: 270px;
     border: 1px solid #888;
     margin: 10px auto 0;
 }
 .initial-formation-away {
-    width: 240px;
-    height: 180px;
+    width: 360px;
+    height: 270px;
     border: 1px solid #888;
     margin: 10px auto 0;
 }
