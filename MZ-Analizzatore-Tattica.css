@@ -750,11 +750,10 @@ border-color: #666b71 !important;
 
 
 /* =========================
-   TIMELINE
+   TIMELINE TEST
    ========================= */
 
 .goal-timeline {
-    position: relative;
     margin-top: 26px;
     padding-top: 18px;
     border-top: 1px solid rgba(255,255,255,.06);
@@ -768,168 +767,18 @@ border-color: #666b71 !important;
 }
 
 .goal-event {
-    display: flex;
-    align-items: center;
-    min-width: 0;
     padding: 7px 12px;
-    border-radius: 10px;
     background: rgba(255,255,255,.035);
-    font-size: 13px;
 }
 
 .home-goal .goal-event {
-    justify-content: flex-start;
-    border-left: 3px solid #ef5350;
+    text-align: left;
 }
 
 .away-goal .goal-event {
-    justify-content: flex-end;
-    border-right: 3px solid #42a5f5;
     text-align: right;
 }
 
 .goal-empty {
     min-width: 0;
-}
-
-
-/* =========================
-   EVENTI
-   ========================= */
-
-.timeline-event-content {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    min-width: 0;
-    width: 100%;
-}
-
-.goal-time,
-.event-time {
-    color: #8b95a5;
-    font-family: monospace;
-    font-size: 12px;
-    white-space: nowrap;
-}
-
-.goal-player {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-weight: 800;
-    color: #93c5fd;
-    white-space: nowrap;
-}
-
-.ball {
-    font-size: 18px;
-}
-
-.assist {
-    color: #7f8999;
-    font-size: 11px;
-    font-weight: 500;
-    white-space: nowrap;
-}
-
-.goal-score {
-    margin-left: 4px;
-    color: #f3f4f6;
-    font-size: 11px;
-    font-weight: 800;
-    white-space: nowrap;
-    opacity: .9;
-}
-
-
-/* =========================
-   SOSTITUZIONI
-   ========================= */
-
-.substitution-content {
-    justify-content: flex-start;
-}
-
-.event-main {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 12px;
-    white-space: nowrap;
-}
-
-.event-icon {
-    font-size: 13px;
-}
-
-.player-out {
-    color: #9ca3af;
-    text-decoration: line-through;
-    text-decoration-color: rgba(239,68,68,.55);
-}
-
-.player-in {
-    color: #dbeafe;
-    font-weight: 700;
-}
-
-.arrow {
-    color: #6b7280;
-    font-weight: 700;
-    margin: 0 2px;
-}
-
-
-/* =========================
-   CARTELLINI
-   ========================= */
-
-.card-content .event-main {
-    font-weight: 650;
-}
-
-
-/* =========================
-   CAMBI TATTICI
-   ========================= */
-
-.tactic-content {
-    gap: 8px;
-}
-
-.timeline-tactic {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    white-space: nowrap;
-}
-
-.tactic-icon {
-    font-size: 12px;
-}
-
-.tactic-label {
-    color: #7f8999;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-}
-
-.tactic-change {
-    color: #dbeafe;
-    font-weight: 700;
-}
-
-
-/* =========================
-   NESSUN EVENTO
-   ========================= */
-
-.no-scorers {
-    padding: 10px;
-    color: #586272;
-    text-align: center;
-    font-size: 13px;
 }
