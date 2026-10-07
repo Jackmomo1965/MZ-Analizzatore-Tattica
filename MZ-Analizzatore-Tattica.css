@@ -759,7 +759,7 @@ border-color: #666b71 !important;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-bottom: 6px;
-    min-height: 48px;
+    height: 80px;
 }
 
 .timeline-event {
