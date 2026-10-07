@@ -768,3 +768,10 @@ border-color: #666b71 !important;
     min-height: 48px;
     box-sizing: border-box;
 }
+.home-event {
+    border-left: 3px solid #e74c3c;
+}
+
+.away-event {
+    border-right: 3px solid #3498db;
+}
