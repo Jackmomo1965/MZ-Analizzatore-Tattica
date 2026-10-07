@@ -821,10 +821,12 @@ border-color: #666b71 !important;
     opacity: .9;
 }
 .card-content {
+    display: flex;
+    align-items: center;
     gap: 6px;
 }
 
-.card-content .event-time {
+.event-time {
     color: #8b95a5;
     font-family: monospace;
     font-size: 12px;
@@ -840,6 +842,6 @@ border-color: #666b71 !important;
     white-space: nowrap;
 }
 
-.card-content .event-icon {
+.event-icon {
     font-size: 13px;
 }
