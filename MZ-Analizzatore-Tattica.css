@@ -748,11 +748,14 @@ border-color: #666b71 !important;
 /* =========================
    MATCH TIMELINE
    ========================= */
-
 .match-timeline {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255,255,255,.08);
 }
+
 .home-events,
 .away-events {
     display: flex;
