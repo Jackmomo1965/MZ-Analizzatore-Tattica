@@ -744,3 +744,12 @@ border-color: #666b71 !important;
     border: 1px solid #888;
     margin: 10px auto 0;
 }
+
+/* =========================
+   MATCH TIMELINE
+   ========================= */
+
+.match-timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
