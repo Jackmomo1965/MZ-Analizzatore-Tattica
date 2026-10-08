@@ -1,7 +1,6 @@
 /* ═══════════════════════════════════════════════
 PULSANTE PRINCIPALE
 ═══════════════════════════════════════════════ */
-
 .mz-tactics-button {
 position: fixed;
 top: 20px;
@@ -13,11 +12,9 @@ color: #fff;
 border: none; 
 border-radius: 8px; 
 box-shadow: 0 3px 8px rgba(0,0,0,0.25); 
-
 font-family: Arial, sans-serif; 
 font-size: 14px; 
 font-weight: bold; 
-
 cursor: pointer; 
 transition: all 0.2s ease; 
 }
@@ -31,7 +28,6 @@ box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 /* ═══════════════════════════════════════════════
 PANNELLO SELEZIONE COMPETIZIONE
 ═══════════════════════════════════════════════ */
-
 #interaction-modal {
 position: fixed;
 left: 50%;
@@ -49,7 +45,6 @@ font-family: Cambria, Georgia, serif;
 /* ───────────────────────────────────────────────
 INTESTAZIONE DEL PANNELLO
 ─────────────────────────────────────────────── */
-
 #interaction-modal .interaction-modal-header {
 display: flex;
 align-items: center;
@@ -76,7 +71,6 @@ color: #f1eee8;
 /* ───────────────────────────────────────────────
 ICONE IMPOSTAZIONI E CHIUSURA
 ─────────────────────────────────────────────── */
-
 #interaction-modal .settings-icon,
 #interaction-modal .ylotp-close-icon {
 margin-left: 0;
@@ -94,7 +88,6 @@ opacity: 1;
 /* ───────────────────────────────────────────────
 SCHEDE DELLE COMPETIZIONI
 ─────────────────────────────────────────────── */
-
 #interaction-modal .tab-headers {
 display: flex;
 padding: 10px 12px 0;
@@ -121,7 +114,6 @@ border-bottom-color: #c8c1b5 !important;
 /* ───────────────────────────────────────────────
 PULSANTI DELLE COMPETIZIONI
 ─────────────────────────────────────────────── */
-
 #interaction-modal .tab-content {
 display: flex;
 flex-wrap: wrap;
@@ -189,7 +181,6 @@ border-color: #666b71 !important;
 /* =========================================================
    PANNELLO TATTICHE
    ========================================================= */
-
 #tactics-container {
     position: fixed;
     width: 800px;
@@ -209,7 +200,6 @@ border-color: #666b71 !important;
 }
 
 /* Intestazione del pannello tattiche */
-
 #tactics-container .tactics-header {
     display: flex;
     align-items: center;
@@ -224,7 +214,6 @@ border-color: #666b71 !important;
 }
 
 /* Collegamenti relativi alle tattiche */
-
 #tactics-container .tactic-link {
     color: #f1eee8;
 }
@@ -234,7 +223,6 @@ border-color: #666b71 !important;
 }
 
 /* Icona di chiusura del pannello tattiche */
-
 #tactics-container .ylotp-close-icon {
     font-size: 22px !important;
     color: #e8e4dc !important;
@@ -247,7 +235,6 @@ border-color: #666b71 !important;
 }
 
 /* Griglia miniature */
-
 #tactics-container .tactics-list {
     display: grid;
     grid-template-columns: repeat(3, 240px);
@@ -258,13 +245,11 @@ border-color: #666b71 !important;
 }
 
 /* Singolo elemento tattico */
-
 #tactics-container .tactic-item {
     text-align: center;
 }
 
 /* Pulsante XML */
-
 #tactics-container button.xml-button {
     padding: 9px 14px !important;
     border: 1px solid #50545a !important;
@@ -282,13 +267,11 @@ border-color: #666b71 !important;
 }
 
 /* Miniature delle tattiche */
-
 #tactics-container .tactic-item canvas {
     border: 3px solid #f1eee8;
 }
 
 /* Colori dei bordi delle miniature in base alla federazione */
-
 #tactics-container .tactic-item[data-federation-color] canvas {
     border-width: 4px;
 }
@@ -338,7 +321,6 @@ border-color: #666b71 !important;
 }
 
 /* Indicatore di avanzamento del caricamento federazioni */
-
 .federation-progress {
     position: fixed;
     top: 20px;
@@ -358,7 +340,6 @@ border-color: #666b71 !important;
 }
 
 /* Nasconde il pannello impostazioni */
-
 .settings-panel {
     display: none;
 }
@@ -368,7 +349,6 @@ border-color: #666b71 !important;
    ========================================================= */
 
 /* Sfondo e impostazioni generali della finestra Report */
-
 .report-window {
     margin: 0;
     padding: 32px;
@@ -393,7 +373,6 @@ border-color: #666b71 !important;
 }
 
 /* Titolo della finestra Report */
-
 .report-window h1 {
     margin: 0 0 30px 0;
     font-size: 28px;
@@ -402,7 +381,6 @@ border-color: #666b71 !important;
 }
 
 /* Stati di caricamento BIN e XML */
-
 .report-window #bin-status,
 .report-window #xml-status {
     margin: 10px 0;
@@ -412,7 +390,6 @@ border-color: #666b71 !important;
 }
 
 /* Contenitore dei pulsanti del Report */
-
 .report-window #report-buttons {
     display: flex;
     margin-left: auto;
@@ -428,7 +405,6 @@ border-color: #666b71 !important;
 }
 
 /* Pulsanti del Report */
-
 .report-window #report-buttons button {
     padding: 11px 14px;
     border: 1px solid rgba(255,255,255,.08);
@@ -455,7 +431,6 @@ border-color: #666b71 !important;
 }
 
 /* Effetto hover dei pulsanti del Report */
-
 .report-window #report-buttons button:hover {
     transform: translateY(-2px);
     box-shadow:
@@ -465,7 +440,6 @@ border-color: #666b71 !important;
 }
 
 /* Effetto pressione dei pulsanti del Report */
-
 .report-window #report-buttons button:active {
     transform: translateY(2px);
     box-shadow:
@@ -474,14 +448,12 @@ border-color: #666b71 !important;
 }
 
 /* Contenitore principale del Report */
-
 .report {
     max-width: 1100px;
     margin: 32px auto;
 }
 
 /* Intestazione principale del Report */
-
 .report .header {
     position: relative;
     overflow: hidden;
@@ -494,7 +466,6 @@ border-color: #666b71 !important;
 }
 
 /* Effetto luminoso dell'intestazione */
-
 .report .header::before {
     content: "";
     position: absolute;
@@ -510,7 +481,6 @@ border-color: #666b71 !important;
 }
 
 /* Navigazione del Report */
-
 .report-nav {
     display: flex;
     gap: 6px;
@@ -523,7 +493,6 @@ border-color: #666b71 !important;
 }
 
 /* Pulsanti della navigazione del Report */
-
 .report-nav-button {
     flex: 1;
     padding: 11px 14px;
@@ -551,7 +520,6 @@ border-color: #666b71 !important;
 }
 
 /* Effetto hover della navigazione */
-
 .report-nav-button:hover {
     transform: translateY(-2px);
     box-shadow:
@@ -561,7 +529,6 @@ border-color: #666b71 !important;
 }
 
 /* Effetto pressione della navigazione */
-
 .report-nav-button:active {
     transform: translateY(2px);
     box-shadow:
@@ -570,7 +537,6 @@ border-color: #666b71 !important;
 }
 
 /* Data e ora della partita */
-
 .competition {
     position: relative;
     text-align: center;
@@ -583,7 +549,6 @@ border-color: #666b71 !important;
 }
 
 /* Tabellone della partita */
-
 .scoreboard {
     position: relative;
     display: grid;
@@ -593,7 +558,6 @@ border-color: #666b71 !important;
 }
 
 /* Singola squadra */
-
 .team {
     display: flex;
     flex-direction: column;
@@ -602,7 +566,6 @@ border-color: #666b71 !important;
 }
 
 /* Indicatore colore della squadra */
-
 .team-color {
     width: 16px;
     height: 16px;
@@ -612,21 +575,18 @@ border-color: #666b71 !important;
 }
 
 /* Colore squadra di casa */
-
 .home-color {
     background: #ef5350;
     color: #ef5350;
 }
 
 /* Colore squadra ospite */
-
 .away-color {
     background: #42a5f5;
     color: #42a5f5;
 }
 
 /* Nome della squadra */
-
 .team-name {
 
     font-size: 20px;
@@ -635,7 +595,6 @@ border-color: #666b71 !important;
 }
 
 /* Codice della squadra */
-
 .team-code {
     margin-top: 4px;
     color: #8b95a5;
@@ -643,13 +602,11 @@ border-color: #666b71 !important;
 }
 
 /* Punteggio della partita */
-
 .score {
     text-align: center;
 }
 
 /* Risultato finale */
-
 .score-value {
     font-size: 54px;
     line-height: 1;
@@ -659,7 +616,6 @@ border-color: #666b71 !important;
 }
 
 /* Risultato del primo tempo */
-
 .final {
     margin-top: 8px;
     color: #22c55e;
@@ -670,74 +626,50 @@ border-color: #666b71 !important;
 }
 
 /* Tattiche iniziali delle squadre */
-
 .initial-tactics {
-
     margin-top: 18px;
-
     width: 100%;
-
     display: flex;
-
     flex-direction: column;
-
     gap: 6px;
 }
 
 /* Singola riga della tattica */
-
 .initial-tactic-row {
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     gap: 6px;
-
     color: #9ca3af;
-
     font-size: 11px;
-
     line-height: 1.35;
 }
 
 /* Etichetta della tattica */
-
 .initial-tactic-label {
-
     color: #687383;
-
     min-width: 72px;
-
     text-align: right;
-
     font-size: 10px;
-
     text-transform: uppercase;
-
     letter-spacing: .6px;
 }
 
 /* Valore della tattica */
-
 .initial-tactic-value {
-
     color: #d8dde5;
-
     font-weight: 700;
-
     min-width: 75px;
-
     text-align: left;
 }
+
 .initial-formation-home {
     width: 360px;
     height: 270px;
     border: 1px solid #888;
     margin: 10px auto 0;
 }
+
 .initial-formation-away {
     width: 360px;
     height: 270px;
@@ -789,7 +721,6 @@ border-color: #666b71 !important;
     width: 100%;
 }
 
-
 /* =========================
    GOL
    ========================= */
@@ -830,7 +761,6 @@ border-color: #666b71 !important;
     opacity: .9;
 }
 
-
 /* =========================
    CARTELLINO
    ========================= */
@@ -859,7 +789,6 @@ border-color: #666b71 !important;
 .event-icon {
     font-size: 14px;
 }
-
 
 /* =========================
    CAMBIO TATTICO
@@ -891,7 +820,6 @@ border-color: #666b71 !important;
     color: #dbeafe;
     font-weight: 700;
 }
-
 
 /* =========================
    SOSTITUZIONE
