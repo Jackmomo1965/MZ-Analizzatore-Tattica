@@ -766,7 +766,7 @@ border-color: #666b71 !important;
 }
 
 .timeline-event {
-    background: rgba(255,255,255,.035);
+    background: rgba(255,255,255,.05);
     border-radius: 11px;
     padding: 12px;
     min-height: 48px;
