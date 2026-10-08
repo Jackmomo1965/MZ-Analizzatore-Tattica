@@ -748,6 +748,10 @@ border-color: #666b71 !important;
 /* =========================
    MATCH TIMELINE
    ========================= */
+
+/* =========================
+   STRUTTURA GENERALE
+   ========================= */
 .match-timeline {
     margin-top: 20px;
     padding-top: 14px;
@@ -768,6 +772,7 @@ border-color: #666b71 !important;
     min-height: 48px;
     box-sizing: border-box;
 }
+
 .home-event {
     border-left: 3px solid #e74c3c;
 }
@@ -784,6 +789,10 @@ border-color: #666b71 !important;
     width: 100%;
 }
 
+
+/* =========================
+   GOL
+   ========================= */
 .goal-time {
     color: #8b95a5;
     font-family: monospace;
@@ -820,6 +829,11 @@ border-color: #666b71 !important;
     white-space: nowrap;
     opacity: .9;
 }
+
+
+/* =========================
+   CARTELLINO
+   ========================= */
 .card-content {
     display: flex;
     align-items: center;
@@ -846,6 +860,10 @@ border-color: #666b71 !important;
     font-size: 13px;
 }
 
+
+/* =========================
+   CAMBIO TATTICO
+   ========================= */
 .tactic-content {
     gap: 8px;
 }
@@ -873,6 +891,11 @@ border-color: #666b71 !important;
     color: #dbeafe;
     font-weight: 700;
 }
+
+
+/* =========================
+   SOSTITUZIONE
+   ========================= */
 .substitution-content {
     gap: 6px;
 }
