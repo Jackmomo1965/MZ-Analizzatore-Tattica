@@ -873,3 +873,33 @@ border-color: #666b71 !important;
     color: #dbeafe;
     font-weight: 700;
 }
+.substitution-content {
+    gap: 6px;
+}
+
+.substitution-content .event-main {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.substitution-content .event-icon {
+    font-size: 13px;
+}
+
+.player-out {
+    color: #9ca3af;
+    text-decoration: line-through;
+}
+
+.player-in {
+    color: #dbeafe;
+    font-weight: 700;
+}
+
+.substitution-content .arrow {
+    color: #6b7280;
+    font-weight: 700;
+}
