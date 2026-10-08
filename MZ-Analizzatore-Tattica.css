@@ -767,7 +767,7 @@ border-color: #666b71 !important;
 
 .timeline-event {
     background: rgba(255,255,255,.035);
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 12px;
     min-height: 48px;
     box-sizing: border-box;
