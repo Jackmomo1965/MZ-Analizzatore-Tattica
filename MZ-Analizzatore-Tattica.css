@@ -867,3 +867,8 @@ border-color: #666b71 !important;
     color: #dbeafe;
     font-weight: 700;
 }
+
+.timeline-period-separator {
+    border-top: 1px solid rgba(255,255,255,.08);
+    margin: 14px 0;
+}
