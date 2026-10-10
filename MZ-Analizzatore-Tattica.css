@@ -737,13 +737,12 @@ border-color: #666b71 !important;
     gap: 6px;
     font-size: 14px;
     font-weight: 800;
-    /*color: #93c5fd;*/
     color: #ffffff;
     white-space: nowrap;
 }
 
 .own-goal-player {
-    color: #ef5350;
+    color: #ffffff;
 }
 
 .own-goal-player .ball {
@@ -756,7 +755,7 @@ border-color: #666b71 !important;
     gap: 6px;
     font-size: 14px;
     font-weight: 800;
-    color: #ef5350;
+    color: #ffffff;
     white-space: nowrap;
 }
 
