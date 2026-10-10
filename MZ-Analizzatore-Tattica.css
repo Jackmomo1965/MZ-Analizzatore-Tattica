@@ -749,6 +749,16 @@ border-color: #666b71 !important;
     filter: sepia(1) saturate(6) hue-rotate(315deg);
 }
 
+.missed-penalty-player {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ef5350;
+    white-space: nowrap;
+}
+
 .ball {
     font-size: 19px;
 }
