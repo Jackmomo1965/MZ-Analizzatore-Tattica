@@ -869,6 +869,19 @@ border-color: #666b71 !important;
 }
 
 .timeline-period-separator {
-    border-top: 1px solid rgba(255,255,255,.08);
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin: 14px 0;
+    color: #8b95a5;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.timeline-period-separator::before,
+.timeline-period-separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,.08);
 }
