@@ -741,6 +741,14 @@ border-color: #666b71 !important;
     white-space: nowrap;
 }
 
+.own-goal-player {
+    color: #ef5350;
+}
+
+.own-goal-player .ball {
+    filter: sepia(1) saturate(6) hue-rotate(315deg);
+}
+
 .ball {
     font-size: 19px;
 }
