@@ -873,6 +873,7 @@ border-color: #666b71 !important;
     align-items: center;
     gap: 10px;
     margin: 14px 0;
+    border-top: none;
     color: #8b95a5;
     font-size: 12px;
     white-space: nowrap;
