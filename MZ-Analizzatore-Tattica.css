@@ -1032,3 +1032,83 @@ border-color: #666b71 !important;
 .report-window .stat-tabella thead th#nome-squadra-b {
     font-size: 18px !important;
 }
+
+/* STATISTICHE GIOCATORI */
+
+.report-window .stat-giocatori {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.report-window .stat-giocatori-squadre {
+    width: min(100%, 390px);
+}
+
+.report-window .stat-giocatori-squadre .stat-periodo-indicatore {
+    width: calc((100% - 8px) / 2);
+}
+
+.report-window .stat-giocatori-scelta {
+    width: min(100%, 390px);
+    margin: 0 auto 24px;
+}
+
+.report-window .stat-giocatori-selezione {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min(100%, 390px);
+    margin: 0 auto 24px;
+    color: #aeb4bf;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.report-window .stat-giocatori-selezione select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    background: #171a20;
+    color: #f3f4f6;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.report-window .stat-giocatori-tabella-container {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    background: #171a20;
+}
+
+.report-window .stat-giocatori-tabella {
+    width: 100%;
+    border-collapse: collapse;
+    color: #f3f4f6;
+    font-size: 13px;
+}
+
+.report-window .stat-giocatori-tabella th,
+.report-window .stat-giocatori-tabella td {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    text-align: left;
+}
+
+.report-window .stat-giocatori-tabella th {
+    background: #20242c;
+    color: #aeb4bf;
+    font-weight: 600;
+}
+
+.report-window .stat-giocatori-tabella th:last-child,
+.report-window .stat-giocatori-tabella td:last-child {
+    text-align: right;
+}
+
+.report-window .stat-giocatori-tabella tbody tr:last-child td {
+    border-bottom: 0;
+}
