@@ -1023,11 +1023,6 @@ border-color: #666b71 !important;
     background-color: #202733 !important;
 }
 
-/* Passaggio del mouse */
-.report-window .stat-tabella tbody tr:hover td {
-    background-color: #3a4555 !important;
-}
-
 /* Ultima riga */
 .report-window .stat-tabella tbody tr:last-child td {
     border-bottom: none;
