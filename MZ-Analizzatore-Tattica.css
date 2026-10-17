@@ -896,7 +896,7 @@ border-color: #666b71 !important;
     position: relative;
     display: flex;
     width: min(100%, 390px);
-    margin: 0 auto 28px;
+    margin: 24px auto 28px;
     padding: 4px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 16px;
