@@ -940,6 +940,7 @@ border-color: #666b71 !important;
 .report-window .stat-periodo.attivo {
     color: #f3f4f6;
 }
+
 /* =========================================
    TABELLA - STATISTICHE SQUADRA
    ========================================= */
@@ -957,9 +958,23 @@ border-color: #666b71 !important;
 /* Struttura della tabella */
 .report-window .stat-tabella {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     color: #f3f4f6;
     font-size: 14px;
+}
+
+/* Larghezza delle colonne */
+.report-window .stat-tabella th:first-child,
+.report-window .stat-tabella td:first-child,
+.report-window .stat-tabella th:last-child,
+.report-window .stat-tabella td:last-child {
+    width: 30%;
+}
+
+.report-window .stat-tabella th:nth-child(2),
+.report-window .stat-tabella td:nth-child(2) {
+    width: 40%;
 }
 
 /* Celle della tabella */
@@ -968,25 +983,26 @@ border-color: #666b71 !important;
     padding: 12px 16px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     text-align: center;
+    overflow-wrap: anywhere;
 }
 
-/* Intestazione delle squadre e della statistica */
+/* Intestazione */
 .report-window .stat-tabella thead th {
     background: rgba(255, 255, 255, 0.04);
     color: #d1d5db;
     font-size: 12px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
 }
 
-/* Prima colonna: nome della squadra A */
+/* Nome della squadra A */
 .report-window .stat-tabella th:first-child,
 .report-window .stat-tabella td:first-child {
     text-align: right;
 }
 
-/* Ultima colonna: nome della squadra B */
+/* Nome della squadra B */
 .report-window .stat-tabella th:last-child,
 .report-window .stat-tabella td:last-child {
     text-align: left;
@@ -1003,7 +1019,8 @@ border-color: #666b71 !important;
     border-bottom: none;
 }
 
-/* Evidenziazione discreta al passaggio del mouse */
+/* Evidenziazione al passaggio del mouse */
 .report-window .stat-tabella tbody tr:hover {
     background: rgba(255, 255, 255, 0.035);
 }
+
