@@ -901,13 +901,12 @@ border-color: #666b71 !important;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 16px;
     background: #171a20;
-    isolation: isolate;
 }
 
 /* Linguetta che scorre sotto il periodo selezionato */
 .report-window .stat-periodo-indicatore {
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 4px;
     bottom: 4px;
     left: 4px;
@@ -916,10 +915,13 @@ border-color: #666b71 !important;
     background: #292d35;
     transform: translateX(calc(var(--periodo-index, 2) * 100%));
     transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    pointer-events: none;
 }
 
 /* Aspetto comune dei tre pulsanti */
 .report-window .stat-periodo {
+    position: relative;
+    z-index: 1;
     flex: 1;
     min-width: 0;
     padding: 12px 4px;
