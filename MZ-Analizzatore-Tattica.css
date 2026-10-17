@@ -1028,8 +1028,7 @@ border-color: #666b71 !important;
     border-bottom: none;
 }
 
-
-.report-window .stat-tabella thead th:first-child,
-.report-window .stat-tabella thead th:last-child {
+.report-window .stat-tabella thead th#nome-squadra-a,
+.report-window .stat-tabella thead th#nome-squadra-b {
     font-size: 18px !important;
 }
