@@ -1085,7 +1085,8 @@ border-color: #666b71 !important;
 }
 
 .report-window .stat-giocatori-tabella {
-    width: 100%;
+    width: 1100px;
+    min-width: 1100px;
     border-collapse: collapse;
     color: #f3f4f6;
     font-size: 13px;
