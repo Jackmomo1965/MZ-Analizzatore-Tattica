@@ -1109,10 +1109,6 @@ border-color: #666b71 !important;
     font-weight: 600;
 }
 
-.report-window .stat-giocatori-tabella th:last-child,
-.report-window .stat-giocatori-tabella td:last-child {
-    text-align: right;
-}
 
 .report-window .stat-giocatori-tabella tbody tr:last-child td {
     border-bottom: 0;
