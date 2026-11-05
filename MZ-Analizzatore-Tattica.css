@@ -1089,21 +1089,6 @@ border-color: #666b71 !important;
 .report-window .stat-giocatori-tabella-container {
     flex: 1 1 0;
     min-width: 0;
-    width: auto;
-}
-
-
-.report-window .stat-giocatori-tabella-container {
-    width: 100%;
-    overflow-x: auto;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 12px;
-    background: #171a20;
-}
-
-.report-window .stat-giocatori-tabella-container {
-    flex: 1 1 0;
-    min-width: 0;
     width: 100%;
     width: auto;
     overflow-x: auto;
@@ -1111,8 +1096,6 @@ border-color: #666b71 !important;
     border-radius: 12px;
     background: #171a20;
 }
-
-
 
 .report-window .stat-giocatori-tabella {
     width: max-content;
@@ -1129,7 +1112,12 @@ border-color: #666b71 !important;
     text-align: center;
     white-space: nowrap;
 }
-
+.report-window .stat-giocatori-tabella th:not(:last-child),
+.report-window .stat-giocatori-tabella td:not(:last-child),
+.report-window .stat-giocatori-tabella-fissa th:last-child,
+.report-window .stat-giocatori-tabella-fissa td:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
 .report-window .stat-giocatori-tabella-fissa td:nth-child(2) {
     text-align: left;
 }
