@@ -1086,7 +1086,7 @@ border-color: #666b71 !important;
 
 .report-window .stat-giocatori-tabella {
     width: max-content;
-    min-width: 100%;
+    /* min-width: 100%; */
     border-collapse: collapse;
     table-layout: auto;
     color: #f3f4f6;
