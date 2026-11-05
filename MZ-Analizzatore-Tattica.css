@@ -1113,6 +1113,12 @@ border-color: #666b71 !important;
     text-align: center;
     white-space: nowrap;
 }
+
+.report-window .stat-giocatori-tabella-container th:first-child,
+.report-window .stat-giocatori-tabella-container td:first-child {
+    min-width: 90px;
+}
+
 /* SEPARATORI VERTICALI */
 
 .report-window .stat-giocatori-tabella th:not(:last-child),
