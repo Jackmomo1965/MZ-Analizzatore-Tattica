@@ -1101,6 +1101,19 @@ border-color: #666b71 !important;
     background: #171a20;
 }
 
+.report-window .stat-giocatori-tabella-container {
+    flex: 1 1 0;
+    min-width: 0;
+    width: 100%;
+    width: auto;
+    overflow-x: auto;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    background: #171a20;
+}
+
+
+
 .report-window .stat-giocatori-tabella {
     width: max-content;
     border-collapse: collapse;
@@ -1119,6 +1132,10 @@ border-color: #666b71 !important;
 
 .report-window .stat-giocatori-tabella-fissa td:nth-child(2) {
     text-align: left;
+}
+
+.report-window .stat-giocatori-tabella-container td:nth-child(2) {
+    text-align: center;
 }
 
 .report-window .stat-giocatori-tabella th {
