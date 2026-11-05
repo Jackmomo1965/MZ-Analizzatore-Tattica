@@ -1080,7 +1080,7 @@ border-color: #666b71 !important;
     display: flex;
     width: 100%;
     align-items: stretch;
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 12px;
     overflow: hidden;
     background: #171a20;
