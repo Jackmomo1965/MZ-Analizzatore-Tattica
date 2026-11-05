@@ -1086,10 +1086,34 @@ border-color: #666b71 !important;
 
 .report-window .stat-giocatori-tabella {
     width: max-content;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     table-layout: auto;
     color: #f3f4f6;
     font-size: 13px;
+}
+
+.report-window .stat-giocatori-tabella th:first-child,
+.report-window .stat-giocatori-tabella td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 60px;
+    background: #171a20;
+}
+
+.report-window .stat-giocatori-tabella th:nth-child(2),
+.report-window .stat-giocatori-tabella td:nth-child(2) {
+    position: sticky;
+    left: 60px;
+    z-index: 2;
+    background: #171a20;
+}
+
+.report-window .stat-giocatori-tabella th:first-child,
+.report-window .stat-giocatori-tabella th:nth-child(2) {
+    background: #20242c;
+    z-index: 3;
 }
 .report-window .stat-giocatori-tabella th,
 .report-window .stat-giocatori-tabella td {
