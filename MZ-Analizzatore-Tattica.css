@@ -1117,7 +1117,7 @@ border-color: #666b71 !important;
     white-space: nowrap;
 }
 
-.report-window .stat-giocatori-tabella td:nth-child(2) {
+.report-window .stat-giocatori-tabella-fissa td:nth-child(2) {
     text-align: left;
 }
 
